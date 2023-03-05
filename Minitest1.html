@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giai thừa của x</title>
+</head>
+<body>
+<script>
+    let x = parseInt(prompt('Nhập vào số nguyên dương x:'));
+    let i;
+    let factorial = 1;
+    if (x < 1) {
+        x = parseInt(prompt('Hãy nhập số nguyên dương:'))
+    } else {
+        for (i = 1; i <= x; i++) {
+            factorial *= i
+        }
+        document.write('!x = ' + factorial);
+    }
+
+</script>
+</body>
+</html>
